@@ -4,18 +4,19 @@ import { LoginComponent } from './login/login.component';
 import { RouterModule } from '@angular/router';
 import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { RegisterComponent } from './register/register.component';
 
 
 
 @NgModule({
-  declarations: [LoginComponent],
+  declarations: [LoginComponent, RegisterComponent],
   imports: [
     CommonModule, RouterModule,
     NgZorroAntdModule,
     ReactiveFormsModule,
     FormsModule
   ], exports: [
-    LoginComponent
+    LoginComponent, RegisterComponent
   ]
 })
 export class MainModule { }
