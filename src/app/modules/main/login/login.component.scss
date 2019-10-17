@@ -1,0 +1,61 @@
+.login-page {
+  height: 100vh;
+  background: url("../../../../assets/main-background.png");
+  //background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  background-size: cover;
+}
+
+.login-form {
+  padding-left: 7%;
+  padding-right: 8%;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.login-form-button {
+  width: 80%;
+  margin-bottom: 3%;
+  margin-left: 10%;
+  margin-right: 3%;
+}
+
+.ant-card-bordered {
+  border: 1px solid #e8e8e8;
+  // border-radius: 4%;
+  box-shadow: 2px 2px 5px 2px;
+}
+
+a.decoration {
+  margin-left: 1%;
+}
+
+span.dec {
+  margin-left: 23%;
+  opacity: 0.7;
+}
+
+.img {
+  height: 13vh;
+}
+
+@media screen and (max-width: 950px) and (min-width: 760px) {
+  .ant-card-bordered {
+    border: 1px solid #e8e8e8;
+    box-shadow: 4px 4px 10px 3px;
+    margin-right: -53%;
+  }
+}
+
+.img-align {
+  text-align: center;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 951px) {
+  .ant-card-bordered {
+    border: 1px solid #e8e8e8;
+    box-shadow: 4px 4px 10px 3px;
+    margin-right: -42%;
+  }
+}
